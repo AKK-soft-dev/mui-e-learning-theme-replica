@@ -6,7 +6,6 @@ import {
   CardContent,
   Grid,
   Typography,
-  alpha,
 } from "@mui/material";
 import { CustomContainer } from "./utils/CustomContainer";
 import AccountBalanceOutlinedIcon from "@mui/icons-material/AccountBalanceOutlined";

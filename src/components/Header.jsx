@@ -1,7 +1,7 @@
 import {
   Box,
   Link,
-  AppBar as MuiAppBar,
+  AppBar,
   Toolbar,
   styled,
   Button,
@@ -21,10 +21,6 @@ import { CustomContainer } from "./utils/CustomContainer";
 import MyDrawer from "./utils/MyDrawer";
 import MyMenu from "./utils/MyMenu";
 import { navMenus } from "../data";
-
-const AppBar = styled(
-  forwardRef((props, ref) => <MuiAppBar ref={ref} {...props} />)
-)``;
 
 const StyledLink = styled((props) => (
   <Typography component={Link} variant="body1" underline="none" {...props} />

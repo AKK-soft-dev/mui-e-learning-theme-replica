@@ -149,7 +149,6 @@ function PopularCourses() {
                           sx={{
                             width: 1,
                             position: "absolute",
-                            width: 1,
                             left: 0,
                             right: 0,
                             bottom: -1,

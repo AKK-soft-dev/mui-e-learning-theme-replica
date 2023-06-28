@@ -8,7 +8,6 @@ import {
   Box,
   styled,
   useTheme,
-  FormLabel,
   useMediaQuery,
 } from "@mui/material";
 import { CustomContainer } from "./utils/CustomContainer";

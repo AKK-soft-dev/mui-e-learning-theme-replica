@@ -12,7 +12,6 @@ import {
   styled,
   alpha,
 } from "@mui/material";
-import React from "react";
 import BrandDarkModeLogo from "../../assets/logo-negative.svg";
 import BrandLightModeLogo from "../../assets/logo.svg";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
@@ -20,7 +19,7 @@ import { navMenus } from "../../data";
 
 const drawerWidth = 260;
 
-const Accordion = styled(MuiAccordion)(({ theme }) => ({
+const Accordion = styled(MuiAccordion)({
   backgroundColor: "transparent",
   boxShadow: "none",
   "&::before": {
@@ -29,7 +28,7 @@ const Accordion = styled(MuiAccordion)(({ theme }) => ({
   "&.Mui-expanded": {
     margin: 0,
   },
-}));
+});
 
 const AccordionSummary = styled(MuiAccordionSummary)({
   minHeight: 50,

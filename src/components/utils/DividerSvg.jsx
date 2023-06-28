@@ -1,4 +1,4 @@
-import { Box, SvgIcon, useTheme } from "@mui/material";
+import { Box, useTheme } from "@mui/material";
 
 function DividerSvg() {
   const theme = useTheme();
