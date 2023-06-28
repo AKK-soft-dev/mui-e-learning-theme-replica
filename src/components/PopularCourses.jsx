@@ -186,7 +186,7 @@ function PopularCourses() {
                         </CardContent>
                       </CardMedia>
                       <CardContent>
-                        <Typography variant="h6">UX & web design</Typography>
+                        <Typography variant="h6">{courseTitle}</Typography>
                         <Box
                           sx={{ display: "flex", alignItems: "center", mt: 2 }}
                         >

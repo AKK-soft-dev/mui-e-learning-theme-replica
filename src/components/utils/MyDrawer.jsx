@@ -119,8 +119,8 @@ function MyDrawer({ open, onClose }) {
           </Accordion>
         ))}
       </Box>
-      <Box sx={{ px: 2 }}>
-        <Button href="#" variant="outlined" fullWidth sx={{ my: 1 }}>
+      <Box sx={{ px: 2, my: 1 }}>
+        <Button href="#" variant="outlined" fullWidth sx={{ mb: 1 }}>
           Documentation
         </Button>
         <Button href="#" variant="contained" fullWidth>
