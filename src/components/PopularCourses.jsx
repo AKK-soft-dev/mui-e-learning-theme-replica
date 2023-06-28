@@ -65,7 +65,7 @@ function PopularCourses() {
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
-    autoplay: false,
+    autoplay: true,
     responsive: [
       {
         breakpoint: theme.breakpoints.values.md,
