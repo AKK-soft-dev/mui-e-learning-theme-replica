@@ -38,6 +38,7 @@ function Numbers() {
           variant="h6"
           sx={{ color: "text.secondary", mt: 1 }}
           data-aos="fade-up"
+          data-aos-delay="50"
         >
           The best way to learn is by using skills. <br />
           That's why every class has a project that lets you practice and get

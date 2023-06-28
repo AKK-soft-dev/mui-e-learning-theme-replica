@@ -65,7 +65,7 @@ function PopularCourses() {
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
-    autoplay: true,
+    autoplay: false,
     responsive: [
       {
         breakpoint: theme.breakpoints.values.md,
@@ -216,7 +216,10 @@ function PopularCourses() {
                           </AvatarGroup>
                           <Box sx={{ display: "flex", alignItems: "center" }}>
                             <Chip
-                              sx={{ bgcolor: "transparent" }}
+                              sx={{
+                                bgcolor: "transparent",
+                                "& .MuiChip-label": { pl: 0.7 },
+                              }}
                               icon={
                                 <StarIcon fontSize="small" color="secondary" />
                               }

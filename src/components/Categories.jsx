@@ -23,9 +23,9 @@ import MonetizationOnOutlinedIcon from "@mui/icons-material/MonetizationOnOutlin
 import DesignServicesOutlinedIcon from "@mui/icons-material/DesignServicesOutlined";
 
 const Card = styled(MuiCard)(({ theme }) => ({
-  transition: theme.transitions.create("all"),
+  transition: theme.transitions.create("transform"),
   "&:hover": {
-    transform: "translateY(-6px)",
+    transform: "translateY(-6px) !important",
   },
 }));
 
@@ -68,12 +68,15 @@ function Categories() {
 
       <Box>
         <Grid container spacing={4} mt={1}>
-          <Grid item xs={12} sm={6} md={3}>
-            <Card
-              sx={{ p: (theme) => theme.spacing(2, 1.8), height: 1 }}
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={3}
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <Card sx={{ p: (theme) => theme.spacing(2, 1.8), height: 1 }}>
               <CardContent sx={{ textAlign: "start" }}>
                 <StyledAvatar
                   sx={{
@@ -95,12 +98,15 @@ function Categories() {
               </CardActions>
             </Card>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
-            <Card
-              sx={{ p: (theme) => theme.spacing(2, 1.8), height: 1 }}
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={3}
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <Card sx={{ p: (theme) => theme.spacing(2, 1.8), height: 1 }}>
               <CardContent sx={{ textAlign: "start" }}>
                 <StyledAvatar
                   sx={{
@@ -121,12 +127,15 @@ function Categories() {
               </CardActions>
             </Card>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
-            <Card
-              sx={{ p: (theme) => theme.spacing(2, 1.8), height: 1 }}
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={3}
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <Card sx={{ p: (theme) => theme.spacing(2, 1.8), height: 1 }}>
               <CardContent sx={{ textAlign: "start" }}>
                 <StyledAvatar
                   sx={{
@@ -148,12 +157,15 @@ function Categories() {
               </CardActions>
             </Card>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
-            <Card
-              sx={{ p: (theme) => theme.spacing(2, 1.8), height: 1 }}
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={3}
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <Card sx={{ p: (theme) => theme.spacing(2, 1.8), height: 1 }}>
               <CardContent sx={{ textAlign: "start" }}>
                 <StyledAvatar
                   sx={{
@@ -176,12 +188,15 @@ function Categories() {
             </Card>
           </Grid>
           {/** Second row */}
-          <Grid item xs={12} sm={6} md={3}>
-            <Card
-              sx={{ p: (theme) => theme.spacing(2, 1.8), height: 1 }}
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={3}
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <Card sx={{ p: (theme) => theme.spacing(2, 1.8), height: 1 }}>
               <CardContent sx={{ textAlign: "start" }}>
                 <StyledAvatar
                   sx={{
@@ -203,12 +218,15 @@ function Categories() {
               </CardActions>
             </Card>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
-            <Card
-              sx={{ p: (theme) => theme.spacing(2, 1.8), height: 1 }}
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={3}
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <Card sx={{ p: (theme) => theme.spacing(2, 1.8), height: 1 }}>
               <CardContent sx={{ textAlign: "start" }}>
                 <StyledAvatar
                   sx={{
@@ -230,12 +248,15 @@ function Categories() {
               </CardActions>
             </Card>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
-            <Card
-              sx={{ p: (theme) => theme.spacing(2, 1.8), height: 1 }}
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={3}
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <Card sx={{ p: (theme) => theme.spacing(2, 1.8), height: 1 }}>
               <CardContent sx={{ textAlign: "start" }}>
                 <StyledAvatar
                   sx={{
@@ -257,12 +278,15 @@ function Categories() {
               </CardActions>
             </Card>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
-            <Card
-              sx={{ p: (theme) => theme.spacing(2, 1.8), height: 1 }}
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={3}
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <Card sx={{ p: (theme) => theme.spacing(2, 1.8), height: 1 }}>
               <CardContent sx={{ textAlign: "start" }}>
                 <StyledAvatar
                   sx={{
