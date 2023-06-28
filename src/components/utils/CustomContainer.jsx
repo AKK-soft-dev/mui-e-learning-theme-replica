@@ -20,7 +20,7 @@ export const CustomContainer = styled(Box)(({ theme }) => ({
     maxWidth: "100%",
   },
   [theme.breakpoints.up("lg")]: {
-    maxWidth: 1350,
+    maxWidth: 1200,
     paddingTop: theme.spacing(8),
     paddingBottom: theme.spacing(8),
   },

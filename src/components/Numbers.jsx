@@ -65,7 +65,7 @@ function Numbers() {
             <Grid item xs={12} sm={6} md>
               <Card
                 variant="outlined"
-                sx={{ p: (theme) => theme.spacing(2, 1.8) }}
+                sx={{ p: (theme) => theme.spacing(2, 1.8), height: 1 }}
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
@@ -90,7 +90,7 @@ function Numbers() {
             <Grid item xs={12} sm={6} md>
               <Card
                 variant="outlined"
-                sx={{ p: (theme) => theme.spacing(2, 1.8) }}
+                sx={{ p: (theme) => theme.spacing(2, 1.8), height: 1 }}
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
@@ -115,7 +115,7 @@ function Numbers() {
             <Grid item xs={12} sm={6} md>
               <Card
                 variant="outlined"
-                sx={{ p: (theme) => theme.spacing(2, 1.8) }}
+                sx={{ p: (theme) => theme.spacing(2, 1.8), height: 1 }}
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
@@ -140,7 +140,7 @@ function Numbers() {
             <Grid item xs={12} sm={6} md>
               <Card
                 variant="outlined"
-                sx={{ p: (theme) => theme.spacing(2, 1.8) }}
+                sx={{ p: (theme) => theme.spacing(2, 1.8), height: 1 }}
                 data-aos="fade-up"
                 data-aos-delay="400"
               >

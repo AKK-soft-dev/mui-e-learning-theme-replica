@@ -36,7 +36,7 @@ const HeroContainer = styled(CustomContainer)(({ theme }) => ({
   },
 
   [theme.breakpoints.up("lg")]: {
-    maxWidth: "1350px !important",
+    maxWidth: "1200px !important",
   },
   [theme.breakpoints.up("xl")]: {
     maxWidth: "1400px !important",
